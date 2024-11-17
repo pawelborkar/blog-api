@@ -1,0 +1,10 @@
+[project]
+name = "blog-api"
+version = "0.1.0"
+description = "Blog API"
+author = "Pawel Borkar"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.5",
+]
