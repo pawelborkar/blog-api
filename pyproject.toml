@@ -2,9 +2,12 @@
 name = "blog-api"
 version = "0.1.0"
 description = "Blog API"
-author = "Pawel Borkar"
+author = "Pawel Borkar <hi@pawel.in>"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi[standard]>=0.115.5",
+    "granian>=1.6.4",
+    "pydantic-settings>=2.6.1",
+    "sqlalchemy==1.4.54",
 ]
